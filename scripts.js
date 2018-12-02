@@ -59,10 +59,10 @@
       }
 
       tl
-        .to(currentSlide.querySelector(slidePicture), 0.5, {x: '-100%', opacity: 0})
-        .to(currentSlide.querySelector(slideHeader), 0.5, {y: '-100%', opacity:0 }, '-=0.5')
-        .fromTo(nextSlide.querySelector(slidePicture), 0.5, {xPercent:-50}, {xPercent: 0, opacity: 1, 'visibility': 'visible', css:{className:'+=active'}}, '-=0.5')
-        // .fromTo(nextSlide.querySelector(slideHeader), 0.5, {y:200}, {y:0, opacity: 1, 'visibility': 'visible', css:{className:'+=active'}}, '-=0.3')
+        .to(currentSlide.querySelector(slidePicture), 0.5, {x: '-100%', opacity: '0'})
+        .to(currentSlide.querySelector(slideHeader), 0.5, {y: '-100%', opacity: '0' }, '-=0.5')
+        .fromTo(nextSlide.querySelector(slidePicture), 0.5, {x:'100%'}, {x: '0%', opacity: '1', 'visibility': 'visible'}, '-=0.3')
+        .fromTo(nextSlide.querySelector(slideHeader), 0.5, {y:'100%'}, {y: '0%', opacity: 1, 'visibility': 'visible'}, '-=0.3')
     }
 
   }
