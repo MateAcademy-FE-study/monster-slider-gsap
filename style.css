@@ -27,6 +27,10 @@ h1, ul {
   padding: 0;
 }
 
+body {
+  overflow: hidden;
+}
+
 .body-wrapper {
   max-width: 90%;
   margin: auto;
@@ -115,11 +119,16 @@ h1, ul {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.yb-slider__img,
+.yb-slider__header {
   visibility: hidden;
   opacity: 0;
 }
 
-.yb-slider__item.active {
+.yb-slider__img.active,
+.yb-slider__header.active {
   visibility: visible;
   opacity: 1;
 }
