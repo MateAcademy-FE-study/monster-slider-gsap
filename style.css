@@ -1,0 +1,92 @@
+/*
+## Table of Contents
+##
+## HEADER SECTION ...... header styles
+## BURGER .............. burger styles
+*/
+
+
+/* GENERAL */
+html {
+  font-size: 10px;
+  font-family: 'Roboto Condensed';
+}
+
+body {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.body-wrapper {
+  max-width: 90%;
+  margin: auto;
+}
+
+.flex30 {
+  flex: 0 0 30%;
+}
+
+/* HEADER SECTION */
+
+.header {
+  font-size: 1.5rem;
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.header__logo {
+  text-transform: uppercase;
+}
+
+.header__logo span {
+  font-weight: normal
+}
+
+/* menu */
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu__item {
+  padding: 0 1rem;
+}
+
+.menu__link {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* burger */
+
+.burger {
+  width: 3rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.burger__item {
+  display: inline-block;
+  width: 100%;
+  height: 0.4rem;
+  background: tomato;
+}
+
+.burger__item:nth-child(1) {
+
+}
