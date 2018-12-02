@@ -63,6 +63,10 @@ h1, ul {
   padding: 0 1rem;
 }
 
+.menu__item:first-child {
+  padding: 0 1rem 0 0;
+}
+
 .menu__link {
   color: #333;
   text-transform: uppercase;
@@ -89,4 +93,67 @@ h1, ul {
 
 .burger__item:nth-child(1) {
 
+}
+
+.welcome {
+  height: calc(100vh - 6rem); /* header height */
+}
+
+
+/* YB SLIDER */
+
+.yb-slider {
+  height: 100%;
+  position: relative;
+}
+
+.yb-slider__item {
+  display: flex;
+  height: 100%;
+}
+
+.yb-slider__left {
+  position: relative;
+}
+
+.yb-slider__header {
+  top: 10rem;
+  font-size: 7rem;
+  line-height: 1;
+  position: absolute;
+}
+
+.yb-slider__subtitle {
+  font-size: 0.5em;
+}
+
+.yb-slider__title {
+  margin: 0;
+}
+
+.yb-slider__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.yb-slider__controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.yb-slider__btn {
+  background: tomato;
+  border: 0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  padding: 1.2rem;
+  color: #fff;
+}
+
+.yb-slider__btn:focus {
+  outline: none;
+  box-shadow: .1rem .1rem .2rem #333;
 }
